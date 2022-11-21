@@ -1,5 +1,4 @@
 import cv2
-import numpy
 
 
 img = cv2.imread('../../images/statue_small.jpg', 0)
