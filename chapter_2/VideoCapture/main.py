@@ -1,6 +1,6 @@
 import cv2
 
-videoCapture = cv2.VideoCapture(0)
+videoCapture = cv2.VideoCapture(1)
 
 fps = 30
 size = (int(videoCapture.get(cv2.CAP_PROP_FRAME_WIDTH)),
